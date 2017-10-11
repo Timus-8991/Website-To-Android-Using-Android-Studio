@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
          WebSettings webSettings = mWebview.getSettings();
         webSettings.setJavaScriptEnabled(true);
         webSettings.setJavaScriptCanOpenWindowsAutomatically(false);
-        mWebview.loadUrl("http://www.imdb.com/");
+         mWebview.loadUrl("http://www.imdb.com/");
         mWebview.setWebViewClient(new WebViewClient());
     }
 
